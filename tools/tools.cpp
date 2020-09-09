@@ -21,14 +21,16 @@
 std::string convertTextToBinary(std::string text)
 {
   // define string which holds the result of the conversion
-  std::string binary; 
+  std::string binary;
 
   // loop over string and convert each indivdual character into an 8bit number
-  for (char& _char : text) {
-    binary +=std::bitset<8>(_char).to_string();
+  for(int i = 0; i < text.size(); i++) 
+  {
+    char c = text[i];
+    binary += std::bitset<8>(c).to_string();
     binary += " ";
   }
-  
+
   // return converted string
   return binary;
 }
@@ -38,8 +40,20 @@ std::string convertTextToBinary(std::string text)
 //
 void printMemoryInfo(std::string &text)
 {
-  for (char& _char : text) {
-    //printf("Address : %p, data : %c\n", &_char, _char);
-    printf("Address : %p, binary : %s, character : %c\n", &_char, std::bitset<8>(_char).to_string().c_str(), _char);
+for(int i = 0; i < text.size(); i++) 
+  {
+    char c = text[i];
+    printf("%c --> Addresse : %p, Binärzahl : %s\n", c, &c, std::bitset<8>(c).to_string().c_str());
   }
+}
+
+//
+// Gibt die Start- und Endadresse des übergebenen Strings aus sowie die Differenz zwischen den beiden in Bytes
+//
+void printStringAddresses(std::string &text)
+{
+  char *startAdress = &(*text.begin());                                                             // Speicheradresse des ersten Zeichens ...
+  char *endAdress = &(*text.end());                                                                 // ... und des letzten Zeichens im Text-String
+  printf("Adresse des Text-Strings im Speicher-> Start = %p, Ende = %p\n", startAdress, endAdress); // Speicheradresse des Text-Strings ausgeben
+  printf("Differenz zwischen Start- und End-Adresse in Bytes = %lu\n", endAdress - startAdress);
 }
