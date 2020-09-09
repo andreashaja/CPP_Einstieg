@@ -10,7 +10,7 @@ message("Making ${CODE_ID}")
 
 if(CODE_ID STREQUAL "hello")
 	add_executable (hello hello.cpp) 
-elseif(CODE_ID STREQUAL "encode")
-	add_executable (encode encode.cpp tools.cpp)
+elseif(CODE_ID STREQUAL "count")
+	add_executable (count count.cpp)
 endif()
 

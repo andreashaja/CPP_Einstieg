@@ -14,7 +14,6 @@
 
 #include <stdio.h>
 #include <bitset>
-#include "tools.h"
 
 //
 // Wandelt eine Zeichenkette in eine Binärfolge entsprechend der ASCII-Tabelle um
