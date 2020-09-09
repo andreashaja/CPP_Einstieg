@@ -43,7 +43,7 @@ void printMemoryInfo(std::string &text)
 for(int i = 0; i < text.size(); i++) 
   {
     char c = text[i];
-    printf("%c --> Addresse : %p, Binärzahl : %s\n", c, &c, std::bitset<8>(c).to_string().c_str());
+    printf("%c --> Addresse : %p, ASCII-Code: %d, Binärzahl : %s\n", c, &c, int(c), std::bitset<8>(c).to_string().c_str());
   }
 }
 
