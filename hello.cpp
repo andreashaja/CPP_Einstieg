@@ -31,7 +31,7 @@ int main()
 // ** Aufgabenbeschreibung: Kompilieren und Ausführen **
 // *****************************************************
 // 1. Um dieses Programm in Maschinencode zu übersetzen (zu kompilieren), 
-//    gib den Befehl "g++ -o hello main.cpp" im Terminal ein und drücke ENTER.
+//    gib den Befehl "g++ -o hello hello.cpp" im Terminal ein und drücke ENTER.
 //
 // 2. Um das kompilierte Programm auszuführen, gib den Befehl ./hello im Terminal ein.
 //    Wenn alles geklappt hat, dann solltest du die Ausgabe "Hello World!" sehen.
