@@ -23,7 +23,7 @@ int main()
     //
     // Übung 1a: Passe die Ausgabe so an, dass eine zweite Zeile mit dem Text
     //           "Ich lerne programmieren." mit einem Zeilenumbruch am Ende im Terminal ausgegeben wird.
-    std::cout << "Hello World!\nIch lerne programmieren!\n";
+    std::cout << "Hello World!\n";
 }
 
 //
