@@ -19,14 +19,17 @@ In diesem Modul sehen wir uns daher "Hello World" in der Programmiersprache C++ 
 
 ###  **Variante A (empfohlen)** : Online-Enwicklungsumgebung repl.it
 
-Der einfachste Weg, den Code auszuführen und zu verändern, ist über die Online-IDE `repl.it`. Mit den folgenden Links kommst du direkt zum Editor und über den `Run`-Button kann das jeweilige Programm kompiliert und ausgeführt werden. 
+Der einfachste Weg, den Code auszuführen und zu verändern, ist über die Online-IDE `repl.it`. Um die jeweiligen Programme zu kompilieren und auszuführen, musst du nur den jeweiligen Befehl im Terminal eingeben.
 
-1. **Haupt-Programm** (`hello.cpp`) : Ausgabe des Textes "Hello World" --> [go.tfe.academy/2009176](https://go.tfe.academy/2009176)
+1. **Haupt-Programm** (`hello.cpp`) :  
+`g++ -o hello hello.cpp; ./hello`
 
-2. **Übungen**
-   - **Übung 1** (`exercises/exe_01/hello2.cpp`) : Verändern der Ausgabe inkl. Zeilenumbruch --> [go.tfe.academy/20091710](https://go.tfe.academy/20091710)
+1. **Übungen**
+   
+   - **Übung 1** (`exercises/exe_01/exe_01.cpp`) : 
+   `g++ -o exe_01 ./exercises/exe_01/exe_01.cpp; ./exe_01`
 
-<br> 
+
 
 ###  **Variante B** : Das Projekt auf der eigenen Festplatte starten
 

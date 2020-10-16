@@ -11,9 +11,9 @@ Ich lerne programmieren.
 
 Unter [go.tfe.academy/2008271](https://go.tfe.academy/2008271) findest du das zugehörige Video sowie ein Begleit-PDF zur `while`-Schleife.
 
-Hinweis : Falls du nicht mehr weiterkommst und dir die Lösung ansehen möchtest, dann öffne die Datei `exercises/exe_01/solution/hello2.cpp`, dort findest du die Musterlösung für diese Aufgabe.
+Hinweis : Falls du nicht mehr weiterkommst und dir die Lösung ansehen möchtest, dann öffne die Datei `exercises/exe_01/solution/exe_01_solution.cpp`, dort findest du die Musterlösung für diese Aufgabe.
 
-<br>
+
 ---
 
 # Übung 1b: Umbenennen der Ausgabedatei
